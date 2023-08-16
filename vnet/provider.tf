@@ -1,32 +1,16 @@
-terraform {
+resource "azurerm_virtual_network" "example" {
+  name                = var.vnet_name"
+  location            = var.vnet_location
+  resource_group_name = var.vnet_resource_group_name
+  address_space       = var.vnet_address_space
+  dns_servers         = var.vnet_dns_servers
 
-required_providers {
+/*  subnet {
+    name           = var.vnet_"subnet1"
+    address_prefix = var.vnet_address_prefix
+  }*/
 
-azurerm = {
-
-source ="hashicorp/azurerm"
-
-version= "~>2.15.0"
-
-
-
-
-}
-
-}
-
-}
-
-provider "azurerm" {
-
-subscription_id = var.subscription_id
-
-  client_id       = var.client_id
-
-  client_secret   = var.client_secret
-
-  tenant_id       = var.tenant_id
-
-features {}
-
+  tags = {
+    environment = "Production"
+  }
 }
