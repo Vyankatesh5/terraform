@@ -5,6 +5,6 @@ tenant_id               = "2f2e0da1-0d79-4d2b-b60c-9e541463f9f9"
 
 vnet_name			    = "testvnet1"
 vnet_location			= "Central India"
-vnet_resource_group_name= "IN-CON-Cloud-MGMT-SBX-RG"
+vnet_resource_group_name= "RG_India"
 vnet_address_space		= ["10.0.0.0/8"]
 vnet_dns_servers		= ["10.0.0.4", "10.0.0.5"]
