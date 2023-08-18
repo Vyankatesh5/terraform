@@ -1,6 +1,6 @@
 subscription_id         = "447d3258-c6b9-45ac-8bcf-e343def42272"
-client_id               = "b9743bbb-c59c-4cc3-b083-d73cd4d09f04"
-client_secret           = "1ML8Q~wZ-x5Elh5v0tvnfyFwRZZNuLnbk3qMBana"
+client_id               = "cfcb55f7-d52d-48e4-b501-0adc37700358"
+client_secret           = "5bd8Q~JJDHGrfESM9mOHyJsUZBVYNyIB9JqOVbZj"
 tenant_id               = "2f2e0da1-0d79-4d2b-b60c-9e541463f9f9"
 
 vnet_name			    = "testvnet1"
