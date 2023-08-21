@@ -1,6 +1,6 @@
 kubernetes_cluster_name				= "testcluster"
 kubernetes_cluster_location			= "Central India"
-kubernetes_cluster_resource_group_name		= "IN-CON-Cloud-MGMT-SBX-RG"
+kubernetes_cluster_resource_group_name		= "RG_India"
 kubernetes_cluster_dns_prefix			= "testdns"
 kubernetes_cluster_node_pool_name		= "testnodepool"
 kubernetes_cluster_node_count			= 2
