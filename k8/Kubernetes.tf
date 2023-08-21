@@ -16,7 +16,7 @@ resource "azurerm_kubernetes_cluster" "example" {
 
   tags = {
     Environment = "Production"
-    Project Owner = "RG_India"
+    "Project Owner" = "RG_India"
   }
 }
 
