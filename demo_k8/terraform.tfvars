@@ -23,7 +23,7 @@ tags                                = {
 
  secgroupname                       = "testgroup"
  secgroup_location                  = "Central India"
- secgroup_resource_group_name       = "RG_India"
+ secgroup_resource_group_name       = "Cloud_Asset_Platform-RG-7KBNA"
  sec_tags                           = {
     environment = "test"
  }
