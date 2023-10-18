@@ -15,7 +15,7 @@ tags                                = {
  # Subnet
 
  name                               = "subnet-test"
- subnet_resource_group_name         = "RG_India"
+ subnet_resource_group_name         = "Cloud_Asset_Platform-RG-7KBNA"
  vnet_name                          = "vnet-test"
  address_prefixes                   = ["10.0.0.0/16"]
 
@@ -40,13 +40,13 @@ source_port_range		            = ["443","80"]
 destination_port_range              = ["443","80"]
 source_address_prefix	            = "*"
 destination_address_prefix          = "*"
-secrule_resource_group_name	        = "RG_India"
+secrule_resource_group_name	        = "Cloud_Asset_Platform-RG-7KBNA"
 
 # Kubernetes Cluster
 
 kubernetes_cluster_name				= "testcluster"
 kubernetes_cluster_location			= "Central India"
-kubernetes_cluster_resource_group_name	= "RG_India"
+kubernetes_cluster_resource_group_name	= "Cloud_Asset_Platform-RG-7KBNA"
 kubernetes_cluster_dns_prefix		= "testdns"
 kubernetes_cluster_node_pool_name	= "testnodepool"
 kubernetes_cluster_node_count		= 2
