@@ -4,7 +4,7 @@
 
 basename                            = "test"
 location                            = "Central India"
-resource_group_name                 = "RG_India"
+resource_group_name                 = "Cloud_Asset_Platform-RG-7KBNA"
 address_space                       = ["10.0.0.0/8"]
 dns_servers                         = ["10.0.0.4","10.0.0.5"]
 tags                                = {
