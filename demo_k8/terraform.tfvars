@@ -52,6 +52,4 @@ kubernetes_cluster_node_pool_name	= "testnodepool"
 kubernetes_cluster_node_count		= 2
 kubernetes_cluster_vm_size			= "Standard_D2_v2"
 kubernetes_cluster_identity_type	= "SystemAssigned"
- kubernetes_cluster_tags                    = {
-    "Project Owner" : "RG_India"
- }
+
