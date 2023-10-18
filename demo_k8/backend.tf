@@ -1,6 +1,6 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "RG_India"
+    resource_group_name  = "Cloud_Asset_Platform-RG-7KBNA"
     storage_account_name = "azmonitoring"
     container_name       = "demo-kaiburr"
     key                  = "kcluster/terraform.tfstate"
